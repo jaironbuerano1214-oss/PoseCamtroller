@@ -1,4 +1,4 @@
-# PoseKeys
+# PoseCamtroller
 
 Control your computer with body poses, voice commands, finger counts, pose sequences, screen zones, and ArUco marker tracking — all mapped to configurable keystrokes via your webcam.
 
@@ -22,7 +22,7 @@ Control your computer with body poses, voice commands, finger counts, pose seque
 ## Setup
 
 ```powershell
-cd posekeys
+cd PoseCamtroller
 pip install -r requirements.txt
 ```
 
@@ -166,7 +166,7 @@ The tracker detects up to 16 markers simultaneously and maps each marker centre 
 ## File Layout
 
 ```
-posekeys/
+PoseCamtroller/
   main.py                   # entry point  (`python main.py`)
   requirements.txt
   config.json               # persisted camera index + last profile
