@@ -1,4 +1,4 @@
-# PoseKeys
+# PoseCamtroller
 
 Control your computer with body poses — map any detected body position to a keyboard shortcut and trigger it in real time via your webcam.
 
@@ -15,7 +15,7 @@ Control your computer with body poses — map any detected body position to a ke
 ## Setup
 
 ```powershell
-cd posekeys
+cd PoseCamtroller
 pip install -r requirements.txt
 ```
 
@@ -94,7 +94,7 @@ The **Global sensitivity** slider on the Live View tab acts as a quick reference
 ## File Layout
 
 ```
-posekeys/
+PoseCamtroller/
   main.py               # entry point  (`python main.py`)
   requirements.txt
   app/
